@@ -10,6 +10,9 @@ upstream:
   version:
     type: github_release
     repo: OrcaSlicer/OrcaSlicer
+    require_assets:
+      - asset: 'Ubuntu2404_V.*\.AppImage$'
+      - asset: 'Ubuntu2404_aarch64.*\.AppImage$'
   notes:
     type: github_release
     repo: OrcaSlicer/OrcaSlicer

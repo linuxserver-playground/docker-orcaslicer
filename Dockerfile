@@ -56,7 +56,7 @@ RUN \
     ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
     | jq -r '.tag_name'); \
   fi && \
-  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest"     | jq -r '.url') && \
+  RELEASE_URL="https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/tags/${ORCASLICER_VERSION}" && \
   DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | jq -r 'first(.assets[].browser_download_url | select(test("Ubuntu2404_V")))') && \
   cd /tmp && \
   curl -o \
