@@ -16,6 +16,13 @@ upstream:
   notes:
     type: github_release
     repo: OrcaSlicer/OrcaSlicer
+  sponsor:
+  - name: OrcaSlicer
+    url: https://paypal.me/softfever3d
+  - name: OrcaSlicer (GitHub Sponsors)
+    url: https://github.com/sponsors/SoftFever
+  - name: OrcaSlicer (Ko-fi)
+    url: https://ko-fi.com/SoftFever
 
 release:
   branch: master
