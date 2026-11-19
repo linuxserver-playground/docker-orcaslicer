@@ -238,7 +238,7 @@ ffmpeg                                                                        61
 file                                                                          1:5.46-5                                                 deb                              
 filetime                                                                      0.2.29                                                   rust-crate                       
 findutils                                                                     4.10.0-3                                                 deb                              
-firefox                                                                       160.0~build1                                             deb                              
+firefox                                                                       160.0.1~build1                                           deb                              
 firmware-amd-graphics                                                         20250410-2                                               deb                              
 firmware-linux-nonfree                                                        20250410-2                                               deb                              
 firmware-misc-nonfree                                                         20250410-2                                               deb                              
@@ -1322,8 +1322,8 @@ libopencv-videostab-dev                                                       4.
 libopencv-videostab410                                                        4.10.0+dfsg-5                                            deb                              
 libopencv-viz-dev                                                             4.10.0+dfsg-5                                            deb                              
 libopencv-viz410                                                              4.10.0+dfsg-5                                            deb                              
-libopenexr-3-1-30                                                             3.2.12-1~deb13u1                                         deb                              
-libopenexr-dev                                                                3.2.12-1~deb13u1                                         deb                              
+libopenexr-3-1-30                                                             3.2.12-1~deb13u2                                         deb                              
+libopenexr-dev                                                                3.2.12-1~deb13u2                                         deb                              
 libopengl-dev                                                                 1.7.0-1+b2                                               deb                              
 libopengl0                                                                    1.7.0-1+b2                                               deb                              
 libopenh264-8                                                                 2.6.0+dfsg-2                                             deb                              
